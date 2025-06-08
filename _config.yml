@@ -1,14 +1,13 @@
 title: DAILab
-email: hyojoong.kim@google.com
-description: >-
-  Data Analytics & Intelligence Lab
-baseurl: "" 
-url: "https://dailab.github.io"
+email: hyojoong.kim89@google.com
+description: "Data Analytics & Intelligence Lab"
+baseurl: ""
+url: "https://your-username.github.io"
 theme: minimal-mistakes-jekyll
 
 author:
   name: Dr. Hyojoong Kim
-  avatar: /assets/images/내사진.jpg
+  avatar: /assets/images/avatar.jpg
   bio: AI 기반 스마트팩토리 및 인적자원 분석 연구실
 
 plugins:
