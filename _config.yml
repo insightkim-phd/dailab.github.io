@@ -1,0 +1,32 @@
+title: DAILab
+email: your-email@example.com
+description: "Data Analytics & Intelligence Lab"
+baseurl: ""
+url: "https://your-username.github.io"
+theme: minimal-mistakes-jekyll
+
+author:
+  name: Dr. Hyojoong Kim
+  avatar: /assets/images/avatar.jpg
+  bio: AI 기반 스마트팩토리 및 인적자원 분석 연구실
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+collections:
+  pages:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+paginate: 5
+paginate_path: /news/page:num/
